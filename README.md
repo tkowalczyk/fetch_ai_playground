@@ -30,6 +30,8 @@ python3 04_storage_agent.py
 python3 05_almanac_registration.py
 ```
 
+## Simple communication
+
 6. Local communication
 
 ```bash
@@ -48,4 +50,12 @@ python3 07_01_remote_communication.py
 ```bash
 poetry shell
 python3 07_02_remote_communication.py
+```
+
+## Verifiable communication
+
+8. Local communication
+
+```bash
+python3 08_local_sec_communication.py
 ```
