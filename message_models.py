@@ -7,3 +7,11 @@ class SignedMessage(Model):
 
 class Message(Model):
     message: str
+
+class PaymentRequest(Model):
+    wallet_address: str
+    amount: int
+    denom: str
+ 
+class TransactionInfo(Model):
+    tx_hash: str
