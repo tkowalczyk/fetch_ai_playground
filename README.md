@@ -47,6 +47,8 @@ poetry shell
 python3 07_01_remote_communication.py
 ```
 
+Second terminal
+
 ```bash
 poetry shell
 python3 07_02_remote_communication.py
@@ -58,4 +60,20 @@ python3 07_02_remote_communication.py
 
 ```bash
 python3 08_local_sec_communication.py
+```
+
+9. Remote communication
+
+First terminal
+
+```bash
+poetry shell
+python3 09_01_remote_sec_communication.py
+```
+
+Second terminal
+
+```bash
+poetry shell
+python3 09_02_remote_sec_communication.py
 ```

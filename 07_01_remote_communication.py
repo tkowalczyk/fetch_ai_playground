@@ -1,8 +1,6 @@
 from uagents import Agent, Context, Model
 from uagents.setup import fund_agent_if_low
- 
-class Message(Model):
-    message: str
+from message_models import Message 
 
 #dev agent address 
 RECIPIENT_ADDRESS="agent1q0vvm7p7lyzsy5n49fpwavl3fzku7u22f38565wxwwurga5m3e73jnx6fjp"

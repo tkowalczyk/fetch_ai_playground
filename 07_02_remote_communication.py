@@ -1,8 +1,6 @@
-from uagents import Agent, Context, Model
+from uagents import Agent, Context
 from uagents.setup import fund_agent_if_low
- 
-class Message(Model):
-    message: str
+from message_models import Message
 
 # crypto agent address 
 RECIPIENT_ADDRESS="agent1qtmzf54zukhgn5h0gk8yt4ccnhaym5u0esjh6fzm0xjw06dn45htv0xtvzk"
